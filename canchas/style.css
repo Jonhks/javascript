@@ -1,0 +1,21 @@
+.container{
+	position: relative;
+	background-color: green;
+	width: 1000px;
+	height: 480px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.campo{
+	float: center
+	background-color: green;
+	width: 900px;
+	height: 380px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	/*margin-top: 30px;*/
+}
+
+

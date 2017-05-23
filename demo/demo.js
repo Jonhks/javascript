@@ -1,0 +1,5 @@
+var numero = "";
+
+function numero(){
+
+}

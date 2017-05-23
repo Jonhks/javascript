@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Archivo de audio</title>
+	<link rel="stylesheet" href="estilos.css">
+	
+</head>
+<body>
+		<header>
+			<h1>Reproductor</h1>
+		</header>
+		<audio id="player" ontimeupdate="mostrarProgreso()">
+			<source src ="joe.mp3" type="audio/mpeg" >
+			<source src ="hurt.mp3" type="audio/mpeg" >
+
+		</audio>
+		<button type="button" id="play" onclick="play()">Play</button>		
+		<button type="button" id="play" onclick="pause()">Pause</button>
+		<button type="button" id="play" onclick="stop()">Stop</button>	
+		<button type="button" id="play" onclick="volMAs()">Vol +</button>	
+		<button type="button" id="play" onclick="volMenos()">Vol -</button>
+		<button type="button" id="play" onclick="back()">Back</button>	
+		<button type="button" id="play" onclick="fow()">Foward</button>				
+		<progress id="progressBar" value= "0" max="300">0%</progress>
+		<span id=""></span>
+
+		<script src="audio.js"></script>
+</body>
+</html>
